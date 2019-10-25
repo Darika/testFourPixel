@@ -38206,7 +38206,7 @@ var render = function() {
             "tbody",
             _vm._l(_vm.departments, function(department, index) {
               return _c("tr", [
-                _c("td", [_vm._v(_vm._s(department.logo))]),
+                _c("td", [_c("img", { attrs: { src: department.logo } })]),
                 _vm._v(" "),
                 _c("td", [_vm._v(_vm._s(department.name))]),
                 _vm._v(" "),

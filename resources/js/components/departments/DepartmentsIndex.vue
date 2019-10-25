@@ -18,7 +18,7 @@
                     </thead>
                     <tbody>
                     <tr v-for="department, index in departments">
-                        <td>{{ department.logo }}</td>
+                        <td><img v-bind:src="department.logo"></td>
                         <td>{{ department.name }}</td>
                         <td><label v-for="(item, index) in department.user">{{ item.name }}</label></td>
                         <td>
